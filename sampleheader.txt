@@ -1,0 +1,8 @@
+Message ID	<CAFf+_FiRdVvxy=gW2A0vwwzEDVaZ5N1ahU2cRMBTv5BW-Yn6yQ@mail.gmail.com>
+Created at:	Tue, Jul 23, 2024 at 11:35 AM (Delivered after 36 seconds)
+From:	sender@gmail.com
+To:	rachit@gmail.com
+Subject:	Discover UK University Opportunities – Achievers Dialogues 2024!
+SPF: PASS with IP 192.168.111.11 
+DKIM: 'PASS' with domain gmail.com
+DMARC: 'PASS' Learn more
