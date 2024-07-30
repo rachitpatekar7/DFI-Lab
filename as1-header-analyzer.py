@@ -49,7 +49,7 @@ def extract_email_data_from_file(file_path):
     }
 
 # Path to the email text file
-file_path = 'email.txt'
+file_path = 'sampleheader.txt'
 
 # Extracting data
 email_data = extract_email_data_from_file(file_path)
