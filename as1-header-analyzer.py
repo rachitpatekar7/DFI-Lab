@@ -4,12 +4,20 @@ file_path = 'sampleheader.txt'
 # Reading the email content from the file
 with open(file_path, 'r') as file:
     lines = file.readlines()
-
-# Store words of each line in a different list
-words_list = [line.split() for line in lines if line.strip()]
+    
+# Store non-empty lines in a list
+words_list = []
+for line in lines:
+    if line.strip():
+        words_list.append(line.split())
 
 # Extract the second word from each line if it exists
-second_words = [words[1] if len(words) > 1 else None for words in words_list]
+second_words = []
+for words in words_list:
+    if len(words) > 1:
+        second_words.append(words[1])
+    else:
+        second_words.append(None)
 
 # Initialize variables for storing relevant email data
 sender_email = None
